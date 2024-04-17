@@ -68,16 +68,16 @@ You can install Postman via this website: https://www.postman.com/downloads/
     -   [x] Commit: `Implement list_all_as_string function in Notification repository.`
     -   [x] Write answers of your learning module's "Reflection Subscriber-1" questions in this README.
 -   **STAGE 3: Implement services and controllers**
-    -   [ ] Commit: `Create Notification service struct skeleton.`
-    -   [ ] Commit: `Implement subscribe function in Notification service.`
-    -   [ ] Commit: `Implement subscribe function in Notification controller.`
-    -   [ ] Commit: `Implement unsubscribe function in Notification service.`
-    -   [ ] Commit: `Implement unsubscribe function in Notification controller.`
-    -   [ ] Commit: `Implement receive_notification function in Notification service.`
-    -   [ ] Commit: `Implement receive function in Notification controller.`
-    -   [ ] Commit: `Implement list_messages function in Notification service.`
-    -   [ ] Commit: `Implement list function in Notification controller.`
-    -   [ ] Write answers of your learning module's "Reflection Subscriber-2" questions in this README.
+    -   [x] Commit: `Create Notification service struct skeleton.`
+    -   [x] Commit: `Implement subscribe function in Notification service.`
+    -   [x] Commit: `Implement subscribe function in Notification controller.`
+    -   [x] Commit: `Implement unsubscribe function in Notification service.`
+    -   [x] Commit: `Implement unsubscribe function in Notification controller.`
+    -   [x] Commit: `Implement receive_notification function in Notification service.`
+    -   [x] Commit: `Implement receive function in Notification controller.`
+    -   [x] Commit: `Implement list_messages function in Notification service.`
+    -   [x] Commit: `Implement list function in Notification controller.`
+    -   [x] Write answers of your learning module's "Reflection Subscriber-2" questions in this README.
 
 ## Your Reflections
 This is the place for you to write reflections:
@@ -90,3 +90,7 @@ This is the place for you to write reflections:
 2. Rust doesn't allow mutable static variables to prevent data races and ensure memory safety. This restriction encourages safer concurrency patterns and explicit handling of shared mutable state across threads using synchronization mechanisms like locks or thread-safe data structures. While Java permits mutating static variables through static functions, Rust prioritizes safety and clarity in handling shared state.
 
 #### Reflection Subscriber-2
+
+1. No, I haven't looked at those files much. I haven't felt the need to change them yet. If I need something to do there in the tutorial, then I might look into them.
+2. Using the Observer Pattern makes it easier to add more subscribers due to its decoupling, scalability, and dynamic registration capabilities. This pattern separates the publisher from the subscribers, allowing them to receive notifications independently. Adding additional subscribers is straightforward as long as they implement the observer pattern interface.
+3. I haven't make my own tests or enhancing documentation on my Postman collection. However, I can see how they could be valuable for ensuring API functionality and facilitating collaboration within the group project.
